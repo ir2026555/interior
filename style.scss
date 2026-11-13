@@ -1,0 +1,130 @@
+@import 'cart-phone-pad.scss';
+@import 'index-phone-pad.scss';
+@import 'catalog-phone-pad.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::placeholder{
+    font-family: Montserrat;
+}
+
+.header__logo{
+    text-decoration: none;
+}
+
+.link-box__catalog:hover,
+.catalog-product-box-more:hover,
+.cart__product-link:hover,
+.top__link-catalog:hover{
+    text-decoration: none;
+    color: rgba(136, 136, 136, 1);
+}
+
+.footer__item-link:hover,
+.header__nav-link:hover{
+    text-decoration: underline;
+    color: rgba(136, 136, 136, 1);
+}
+
+.catalog-product-box-more-padding{
+    padding-bottom: 68px;
+}
+
+.footer__icons-icon:hover path{
+    fill: black;
+}
+
+.button-hover-animation:hover{
+    background-color: black;
+    color: white;
+}
+
+.cart__product-input-text:focus,
+.footer__form-input:focus,
+.header__search:focus{
+    outline: none;
+}
+
+.button-pay-hover-animation:active{
+    animation: animate_pulse .001s;
+}
+
+.button-pay-hover-animation{
+    animation: animate_pulse_open 3s;
+}
+
+.product-img-size{
+    width: 378px;
+    height: 282px;
+    margin-bottom: 4px;
+}
+
+.product__img{
+    position: relative;
+}
+
+.product-img-icon{
+    text-decoration: none;
+}
+
+.product-img-icon-1{
+    position: relative;
+    left: 290px;
+    z-index: -1;
+    bottom: -41px;
+}
+
+.product-img-icon-2{
+    position: relative;
+    left: 315px;
+    z-index: -1;
+    bottom: -42px;
+}
+
+.product-img-size:hover .product-img-icon-1,
+.product-img-size:hover .product-img-icon-2{
+    z-index: 2;
+}
+
+@media (max-width: 767px) {
+    
+    .product-img-icon-1{
+        left: 282px;
+    }
+
+    .product-img-icon-2{
+        left: 300px;
+    }
+}
+
+@keyframes animate_pulse {
+	100% {
+		box-shadow: 0 0 0 0 rgba(228, 25, 49, 0);
+	}
+}
+
+@keyframes animate_pulse_open {
+	0% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+	}
+    35% {
+		box-shadow: 50px 0px 100px 150px rgba(228, 25, 49, 0);
+	}
+	70% {
+		box-shadow: 50px 0px 100px 150px rgba(161, 161, 161, 0);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgba(228, 25, 49, 0);
+	}
+}
+
+.fix-error{
+    display: none;
+}
+
+.point{
+    cursor: pointer;
+}

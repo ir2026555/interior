@@ -1,0 +1,1665 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top__title {
+  /* Всё, чего заслуживает ваш дом */
+  width: 792px;
+  height: 140px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 63px;
+}
+.top__subtitle {
+  /* Наша мебель — ваше отражение */
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 19px;
+}
+.top__link-catalog {
+  /* Перейти в каталог */
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.cart__top-background {
+  background: url(./img/carttopback.jpg) no-repeat center center/cover;
+  height: 400px;
+}
+.cart__product {
+  display: flex;
+  gap: 33px;
+}
+.cart__product-text {
+  display: flex;
+  justify-content: space-between;
+  width: 759px;
+  padding-bottom: 14px;
+}
+.cart__product-text-text {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 64px;
+}
+.cart__product-line {
+  /* Vector 1 */
+  width: 786px;
+  height: 0;
+  border-bottom: 0.5px solid rgb(202, 205, 216);
+  box-sizing: border-box;
+}
+.cart__product-product-card-1 {
+  padding-top: 25px;
+  padding-bottom: 32px;
+  display: flex;
+}
+.cart__product-img {
+  /* image 51 */
+  width: 173px;
+  height: 173px;
+  padding-right: 32px;
+}
+.cart__product-title {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Medium;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 14px;
+}
+.cart__product-subtitle {
+  width: 276px;
+  height: 50px;
+  color: rgb(136, 136, 136);
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 16px;
+}
+.cart__product-price {
+  color: rgb(5, 5, 5);
+  font-family: Montserrat;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  padding-bottom: 15px;
+}
+.cart__product-link {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-right: 30px;
+}
+.cart__product-input {
+  border-radius: 20px;
+  background: rgb(247, 246, 246);
+  width: 379px;
+  height: 556px;
+  padding: 42px 30px 42px 30px;
+  box-sizing: border-box;
+  margin-top: 64px;
+}
+.cart__product-input-input {
+  /* Rectangle-39 */
+  width: 71px;
+  height: 51px;
+  border-radius: 6px;
+  background: rgb(247, 246, 246);
+  border: 0px;
+  color: var(--Color-7, rgb(0, 0, 0));
+  font-family: Montserrat;
+  font-style: SemiBold;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cart__product-input-subtitle {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Bold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.cart__product-input-underline {
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(202, 205, 216);
+  padding-top: 3px;
+}
+.cart__product-input-text::-moz-placeholder {
+  color: rgb(0, 0, 0);
+}
+.cart__product-input-text::placeholder {
+  color: rgb(0, 0, 0);
+}
+.cart__product-input-text {
+  padding-top: 40px;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  border: none;
+  background-color: transparent;
+}
+.cart__product-input-price {
+  display: flex;
+  justify-content: center;
+  padding-top: 64px;
+  gap: 10px;
+}
+.cart__product-input-price-part1 {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.cart__product-input-price-part2 {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Medium;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.cart__product-input-button {
+  padding-top: 18px;
+}
+.cart__product-input-button-text {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.cart__product-input-button-border {
+  /* Frame 204 */
+  width: 319px;
+  height: 40px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  background-color: transparent;
+}
+.cart__product-product-card-2 {
+  padding-top: 32px;
+  padding-bottom: 50px;
+  display: flex;
+}
+.cart__product-name {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 201px;
+  justify-items: end;
+}
+.cart__product-text-button {
+  display: flex;
+  gap: 7px;
+}
+.cart__product-text-button-text {
+  color: rgb(2, 2, 2);
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.cart__product-text-button-border {
+  /* button_2 */
+  width: 200px;
+  height: 37px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  /* Интерьер. */
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0%;
+  padding-top: 16px;
+}
+.header__search {
+  /* Rectangle-7 */
+  width: 288px;
+  height: 41px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  background: transparent;
+  margin-top: 16px;
+}
+.header__search::-moz-placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 32px;
+}
+.header__search::placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 32px;
+}
+.header__nav-link {
+  /* Каталог */
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
+  padding-top: 28px;
+  gap: 32px;
+}
+.header-line {
+  /* Line 1 */
+  padding-top: 18.5px;
+  width: 1200px;
+  height: 0;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+}
+
+.nav-link {
+  display: flex;
+  gap: 32px;
+}
+
+footer {
+  background: rgb(247, 246, 246);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  padding-top: 32px;
+}
+.footer__content {
+  width: 792px;
+  justify-content: space-between;
+  display: flex;
+}
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  gap: 129px;
+}
+.footer__item {
+  flex-direction: column;
+  display: flex;
+  gap: 12px;
+  padding-top: 32px;
+}
+.footer__item-name {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__item-link {
+  color: rgb(136, 136, 136);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
+}
+.footer__item-nav {
+  flex-direction: column;
+  display: flex;
+  gap: 12px;
+  padding-top: 32px;
+  padding-bottom: 59px;
+}
+.footer__icons {
+  gap: 20px;
+  display: flex;
+}
+.footer__form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  gap: 8px;
+}
+.footer__form-text {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__form-input {
+  /* Rectangle-13 */
+  width: 260px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding-left: 15px;
+  padding-right: 15px;
+  color: rgb(196, 196, 196);
+}
+.footer__form-input::-moz-placeholder {
+  color: rgb(196, 196, 196);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  padding-left: 2px;
+  text-align: left;
+}
+.footer__form-input::placeholder {
+  color: rgb(196, 196, 196);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  padding-left: 2px;
+  text-align: left;
+}
+.footer__form-button {
+  /* Rectangle-14 */
+  width: 260px;
+  height: 40px;
+  border-radius: 16px;
+  background: rgba(222, 215, 215, 0.41);
+  border: rgba(222, 215, 215, 0.41);
+  font-family: Montserrat;
+}
+.footer__form-button::-moz-placeholder {
+  /* Подписаться */
+  width: 82px;
+  height: 15px;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__form-button::placeholder {
+  /* Подписаться */
+  width: 82px;
+  height: 15px;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  .cart__product {
+    display: block;
+  }
+  .cart__product-product-card-2 {
+    padding-bottom: 32px;
+  }
+  .cart__product {
+    gap: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .cart__product-text {
+    display: none;
+  }
+  .cart__top-background {
+    margin-bottom: 92px;
+  }
+  .cart__product-img {
+    display: none;
+  }
+  .cart__product-product-card-1 {
+    padding-top: 18px;
+    padding-bottom: 30px;
+  }
+  .cart__product-title {
+    width: 143px;
+    height: 22px;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-style: Medium;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 8px;
+  }
+  .cart__product-product-card-2 {
+    padding-top: 18px;
+    padding-bottom: 38px;
+  }
+  .cart__product-subtitle {
+    padding-top: -40px;
+  }
+  .cart__product-subtitle {
+    width: 253px;
+    height: 45px;
+  }
+  .cart__product-price {
+    padding-bottom: 19px;
+  }
+  .cart__product-input {
+    margin-top: 48px;
+  }
+  .cart__product-name {
+    gap: 0;
+  }
+  .cart__product-line {
+    width: 378px;
+  }
+  .product__price-old {
+    padding-left: 25px;
+  }
+}
+.top-background {
+  background: url(./img/Rectangle-15.jpg) no-repeat center center/cover;
+  height: 735px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  /* Интерьер. */
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0%;
+  padding-top: 16px;
+}
+
+.header__search {
+  /* Rectangle-7 */
+  width: 288px;
+  height: 41px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  background: transparent;
+  margin-top: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}
+
+.header__search::-moz-placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 17px;
+}
+
+.header__search::placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 17px;
+}
+
+.nav-link {
+  display: flex;
+  gap: 32px;
+}
+
+.header__nav-link {
+  /* Каталог */
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
+  padding-top: 28px;
+  gap: 32px;
+}
+
+.header-mini-img {
+  display: none;
+}
+
+.header-line {
+  /* Line 1 */
+  padding-top: 18.5px;
+  width: 1200px;
+  height: 0;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+}
+
+.top__title {
+  /* Всё, чего заслуживает ваш дом */
+  width: 792px;
+  height: 140px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 63px;
+}
+
+.top__subtitle {
+  /* Наша мебель — ваше отражение */
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 19px;
+}
+
+.top__link-catalog {
+  /* Перейти в каталог */
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.for__title {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: SemiBold;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 59px;
+  letter-spacing: 0%;
+}
+
+.for__title {
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+
+.for__content {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.for__content-img {
+  /* Rectangle-19 */
+  height: 415px;
+  grid-column: span 4;
+}
+
+.for__content-item-big {
+  /* Rectangle-17 */
+  height: 415px;
+  grid-column: span 6;
+}
+
+.for__content-text {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-style: SemiBold;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.for__content-item-1 {
+  background: url(./img/Rectangle-17.jpg), rgb(196, 196, 196);
+}
+
+.for__content-item-2 {
+  background: url(./img/345352.jpg), rgb(196, 196, 196);
+}
+
+.for__content-item-3 {
+  background: url(./img/Rectangle-19.jpg), rgb(196, 196, 196);
+}
+
+.for__content-item-4 {
+  background: url(./img/Rectangle-20.jpg), rgb(196, 196, 196);
+}
+
+.for__content-item-5 {
+  background: url(./img/Rectangle-21.jpg), rgb(196, 196, 196);
+}
+
+.product-box__name {
+  /* Специальные предложения */
+  width: 729px;
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 59px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 64px;
+}
+
+.product-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.product__img {
+  /* Rectangle-22 */
+  width: 378px;
+  height: 250px;
+  padding-top: 32px;
+}
+
+.product-description {
+  /* Основание из полированной нержавеющей стали, придает оригинальный парящий эффект. */
+  width: 378px;
+  height: 37px;
+  color: rgb(136, 136, 136);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 9px;
+}
+
+.product__price {
+  /* 45 000 руб. */
+  color: rgb(5, 5, 5);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 12px;
+  padding-right: 32px;
+  display: inline-block;
+}
+
+.product__price-old {
+  /* 67 000 руб */
+  color: rgb(136, 136, 136);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  display: inline;
+  text-decoration: line-through;
+}
+
+.product-name {
+  /* Кровать TATRAN */
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 378px;
+}
+
+.link-box__catalog {
+  /* Перейти в каталог */
+  width: 155px;
+  height: 24px;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  display: block;
+}
+
+.link-box-catalog-padding {
+  padding-top: 39px;
+  padding-bottom: 64px;
+}
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+  .header-line {
+    padding-top: 18.5px;
+    width: 786px;
+    height: 0;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+  }
+  .product-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+  }
+  .footer__logo {
+    display: none;
+  }
+  .for__content-img {
+    height: 268px;
+  }
+  .for__content-item-big {
+    height: 268px;
+  }
+  .top__title {
+    width: 786px;
+    height: 140px;
+  }
+}
+@media (max-width: 767px) {
+  .header-line {
+    display: none;
+  }
+  .top__title {
+    width: 343px;
+    height: 177px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-style: SemiBold;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .center {
+    padding-left: calc(50% - 187.5px);
+    padding-right: calc(50% - 187.5px);
+    display: flex;
+    flex-direction: column;
+  }
+  .header__logo {
+    width: 99px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-style: SemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .header-mini-img-1 {
+    width: 14.97px;
+    height: 14.96px;
+  }
+  .header-mini-img-2 {
+    width: 19.2px;
+    height: 19.2px;
+  }
+  .top-background {
+    align-items: center;
+  }
+  .header-mini-img-3 {
+    width: 18.72px;
+    height: 16.67px;
+  }
+  .nav-link,
+  .header__search {
+    display: none;
+  }
+  .header-mini-img {
+    display: flex;
+    align-items: flex-end;
+    gap: 32px;
+  }
+  .header {
+    display: flex;
+    gap: 116.8px;
+  }
+  .top__subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .top__link-catalog {
+    width: 343px;
+    height: 17px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-style: Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .for__title {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-style: SemiBold;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 16px;
+    padding-top: 32px;
+  }
+  .for__content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    gap: 16px;
+  }
+  .for__content-img {
+    width: 342.7px;
+    height: 374.98px;
+  }
+  .for__content-item-big {
+    width: 343px;
+    height: 243.78px;
+  }
+  .product-box__name {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    padding-left: 16px;
+    padding-top: 32px;
+    width: 342.91px;
+  }
+  .product-name {
+    padding-top: 9px;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-style: Medium;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 342.93px;
+    padding-left: 16px;
+  }
+  .product-description {
+    width: 342.93px;
+    padding-left: 16px;
+    color: rgb(136, 136, 136);
+    font-family: Montserrat;
+    font-style: Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: block;
+    height: auto;
+  }
+  .product__price {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-left: 16px;
+    padding-top: 0px;
+  }
+  .product__price-old {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+  .product__img {
+    width: 342.93px;
+    padding-left: 16px;
+    z-index: 1;
+  }
+  .product-content {
+    gap: 0;
+  }
+  .link-box__catalog {
+    padding-left: 16px;
+  }
+  .link-box-catalog-padding {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+  .footer__info {
+    display: flex;
+    justify-content: none;
+    gap: 0px;
+  }
+  .footer__content {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 17px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .footer__form {
+    padding-left: 41px;
+  }
+  .footer__item-nav {
+    padding-right: 100px;
+  }
+  .footer__form-button {
+    margin-bottom: 33px;
+  }
+}
+.top-background-catalog {
+  background: url(./img/Rectangle-29.jpg) no-repeat center center/cover;
+  height: 400px;
+}
+
+.catalog-top-title {
+  width: 270px;
+  height: 70px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 127.25px;
+}
+
+.catalog-upper-part__text {
+  display: flex;
+  gap: 10px;
+  padding-top: 70px;
+}
+
+.catalog-upper-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-upper-part__select {
+  display: flex;
+  gap: 10px;
+  padding-top: 61px;
+}
+
+.catalog-upper-part__text-left {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.filtration-select-filtration {
+  /* Rectangle-30 */
+  width: 182px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-align: center;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.filtration-details-background-catalog {
+  /* Расширенная фильтрация */
+  width: 445.5px;
+  height: 468px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10;
+  padding: 40px 40px 40px 40px;
+  box-shadow: 0px 4px 67px -12px rgba(0, 0, 0, 0.32);
+  background: rgb(255, 255, 255);
+  position: absolute;
+  right: 0px;
+  margin-top: 14px;
+  z-index: 3;
+}
+
+.catalog-input-details {
+  display: inline-flex;
+  gap: 65px;
+}
+
+fieldset {
+  border: 0 none;
+}
+
+label {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.div-catalog-input-name {
+  display: flex;
+  gap: 4px;
+  padding-bottom: 14px;
+}
+
+.catalog-legend-up {
+  color: rgb(5, 5, 5);
+  font-family: Montserrat;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 14px;
+}
+
+.catalog-legend-up-1 {
+  padding-bottom: 16px;
+}
+
+.catalog-room-type-label {
+  padding-left: 14px;
+}
+
+.catalog-delivery-time-label {
+  padding-left: 9px;
+}
+
+.catalog-price-name {
+  padding-top: 18px;
+}
+
+.catalog-color-name {
+  padding-top: 32px;
+}
+
+.catalog-range-price[type=range] {
+  width: 189.05px;
+  height: 30px;
+  overflow: hidden;
+  outline: none;
+}
+
+.catalog-range-price[type=range],
+.catalog-range-price[type=range]::-webkit-slider-runnable-track,
+.catalog-range-price[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: none;
+}
+
+.catalog-range-price[type=range]::-webkit-slider-runnable-track {
+  width: 189.05px;
+  height: 0.5px;
+  background: #000;
+}
+
+.catalog-range-price[type=range]::-webkit-slider-thumb {
+  position: relative;
+  height: 8px;
+  width: 8px;
+  background: #000;
+  border-radius: 25px;
+  cursor: pointer;
+  z-index: 1;
+  margin-top: -3.4px;
+}
+
+.catalog-range-price[type=range]::-webkit-slider-thumb:active {
+  cursor: grabbing;
+}
+
+.catalog-range-price[type=range]:nth-child(1)::-webkit-slider-thumb {
+  z-index: 2;
+}
+
+.catalog-rangeslider-price {
+  height: 20px;
+  width: 190.5px;
+  display: flex;
+}
+
+.catalog-label-price {
+  gap: 14px;
+  display: flex;
+}
+
+.catalog-rangeslider-price input {
+  position: absolute;
+}
+
+.catalog-color-fieldset {
+  display: grid;
+  width: 189.05px;
+  grid-template-columns: repeat(7, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-auto-flow: row;
+  gap: 9px 14px;
+}
+
+input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  border: 1px solid rgb(136, 136, 136);
+}
+
+input[type=checkbox],
+input[type=radio] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+}
+
+input[type=radio] {
+  box-sizing: border-box;
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 60px;
+  width: 15px;
+  height: 15px;
+}
+
+input[type=checkbox]:checked,
+input[type=radio]:checked {
+  background-image: url(./img/Vector-1123.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+input[type=radio]:checked {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+input[type=checkbox]:checked {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.catalog-color-checkbox-black:checked {
+  background-image: url(./img/Vector-1123.svg);
+  background-color: #3d3d3d;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.catalog-color-checkbox-white {
+  background-color: rgb(255, 255, 255);
+}
+
+.catalog-color-checkbox-black {
+  background-color: rgb(0, 0, 0);
+}
+
+.catalog-color-checkbox-grey {
+  background: rgb(115, 115, 115);
+}
+
+.catalog-color-checkbox-red {
+  background-color: rgb(255, 0, 0);
+}
+
+.catalog-color-checkbox-orange {
+  background-color: rgb(255, 122, 65);
+}
+
+.catalog-color-checkbox-yellow {
+  background: rgb(242, 203, 1);
+}
+
+.catalog-color-checkbox-green {
+  background: rgb(0, 191, 42);
+}
+
+.catalog-color-checkbox-turquoise {
+  background-color: rgb(28, 204, 151);
+}
+
+.catalog-color-checkbox-light-blue {
+  background-color: rgb(0, 159, 227);
+}
+
+.catalog-color-checkbox-blue {
+  background: rgb(0, 10, 248);
+}
+
+.catalog-color-checkbox-violet {
+  background-color: rgb(103, 16, 214);
+}
+
+.catalog-color-checkbox-purple {
+  background-color: rgb(157, 13, 181);
+}
+
+.catalog-color-checkbox-lavender {
+  background: rgb(216, 154, 255);
+}
+
+.catalog-color-checkbox-pink {
+  background: rgb(255, 101, 166);
+}
+
+.catalog-input-button {
+  width: 190px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(4, 4, 4);
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.catalog-input-button-div {
+  padding-top: 84px;
+}
+
+.filtration-select-popularity {
+  /* Rectangle-30 */
+  width: 227px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.upper-select-riangle {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px 40px 10px 15px;
+  font-size: 16px;
+  background-image: url(./img/Polygon-1.svg);
+  background-position: calc(100% - 20px);
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.catalog-product-img {
+  /* Rectangle-22 */
+  width: 378px;
+  height: 250px;
+}
+
+.catalog-product-box-more {
+  padding-top: 32px;
+  display: block;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  .filtration-details-background-catalog {
+    padding: 40px 48px 40px 48px;
+    left: -124px;
+  }
+  .catalog-top-title {
+    width: 270px;
+    height: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .catalog-product-img {
+    width: 343px;
+    height: 226px;
+    margin-top: 32px;
+  }
+  .header-mini-img {
+    margin-right: 16px;
+  }
+  .header__logo {
+    margin-left: 16px;
+  }
+  .catalog-top-title {
+    width: 343px;
+    height: 177px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-style: SemiBold;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .catalog-upper-part__text {
+    padding-top: 39px;
+    margin-bottom: 22px;
+  }
+  .catalog-upper-part__select {
+    padding-top: 0;
+    flex-direction: column-reverse;
+  }
+  .catalog-upper-part {
+    margin-left: 16px;
+  }
+  .filtration-details-background-catalog {
+    left: 0;
+    width: 190.5px;
+    height: 845px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px 48px 40px 48px;
+  }
+  .catalog-input-details {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .catalog-input-button-div {
+    padding-top: 36px;
+  }
+  .catalog-product-img {
+    padding-left: 16px;
+  }
+  .catalog-product-box-more-padding {
+    margin-left: 16px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-moz-placeholder {
+  font-family: Montserrat;
+}
+
+::placeholder {
+  font-family: Montserrat;
+}
+
+.header__logo {
+  text-decoration: none;
+}
+
+.link-box__catalog:hover,
+.catalog-product-box-more:hover,
+.cart__product-link:hover,
+.top__link-catalog:hover {
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+}
+
+.footer__item-link:hover,
+.header__nav-link:hover {
+  text-decoration: underline;
+  color: rgb(136, 136, 136);
+}
+
+.catalog-product-box-more-padding {
+  padding-bottom: 68px;
+}
+
+.footer__icons-icon:hover path {
+  fill: black;
+}
+
+.button-hover-animation:hover {
+  background-color: black;
+  color: white;
+}
+
+.cart__product-input-text:focus,
+.footer__form-input:focus,
+.header__search:focus {
+  outline: none;
+}
+
+.button-pay-hover-animation:active {
+  animation: animate_pulse 0.001s;
+}
+
+.button-pay-hover-animation {
+  animation: animate_pulse_open 3s;
+}
+
+.product-img-size {
+  width: 378px;
+  height: 282px;
+  margin-bottom: 4px;
+}
+
+.product__img {
+  position: relative;
+}
+
+.product-img-icon {
+  text-decoration: none;
+}
+
+.product-img-icon-1 {
+  position: relative;
+  left: 290px;
+  z-index: -1;
+  bottom: -41px;
+}
+
+.product-img-icon-2 {
+  position: relative;
+  left: 315px;
+  z-index: -1;
+  bottom: -42px;
+}
+
+.product-img-size:hover .product-img-icon-1,
+.product-img-size:hover .product-img-icon-2 {
+  z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .product-img-icon-1 {
+    left: 282px;
+  }
+  .product-img-icon-2 {
+    left: 300px;
+  }
+}
+@keyframes animate_pulse {
+  100% {
+    box-shadow: 0 0 0 0 rgba(228, 25, 49, 0);
+  }
+}
+@keyframes animate_pulse_open {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+  }
+  35% {
+    box-shadow: 50px 0px 100px 150px rgba(228, 25, 49, 0);
+  }
+  70% {
+    box-shadow: 50px 0px 100px 150px rgba(161, 161, 161, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(228, 25, 49, 0);
+  }
+}
+.fix-error {
+  display: none;
+}
+
+.point {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

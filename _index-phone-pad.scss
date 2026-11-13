@@ -1,0 +1,534 @@
+.top-background{
+    background: url(./img/Rectangle-15.jpg) no-repeat center center/cover;
+    height: 735px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    padding-top: 16px;
+}
+
+.header__search{
+    width: 288px;
+    height: 41px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    background: transparent;
+    margin-top: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.header__search::placeholder{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align:left;
+    padding-left: 17px;
+}
+
+.nav-link{
+    display: flex;
+    gap: 32px;
+}
+
+.header__nav-link{
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+    padding-top: 28px;
+    gap: 32px;
+}
+
+.header-mini-img{
+    display: none;
+}
+
+.header-line{
+    padding-top: 18.5px;
+    width: 1200px;
+    height: 0;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+}
+
+.top__title{
+    width: 792px;
+    height: 140px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 63px;
+}
+
+.top__subtitle{
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 19px;
+}
+
+.top__link-catalog{
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.for__title{
+    color: rgba(0, 0, 0, 1);
+    font-family: Montserrat;
+    font-style: SemiBold;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0%;
+}
+
+.for__title{
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+.for__content{
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.for__content-img{
+    height: 415px;
+    grid-column: span 4;
+}
+
+.for__content-item-big{
+    height: 415px;
+    grid-column: span 6;
+}
+
+.for__content-text{
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-style: SemiBold;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.for__content-item-1{
+    background: url(./img/Rectangle-17.jpg),rgba(196, 196, 196, 1);
+}
+
+.for__content-item-2{
+    background: url(./img/345352.jpg),rgba(196, 196, 196, 1);
+}
+
+.for__content-item-3{
+    background: url(./img/Rectangle-19.jpg),rgba(196, 196, 196, 1);
+}
+
+.for__content-item-4{
+    background: url(./img/Rectangle-20.jpg),rgba(196, 196, 196, 1);
+}
+
+.for__content-item-5{
+    background: url(./img/Rectangle-21.jpg),rgba(196, 196, 196, 1);
+}
+
+.product-box__name{
+    width: 729px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 64px;
+}
+
+.product-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.product__img{
+    width: 378px;
+    height: 250px;
+    padding-top: 32px;
+}
+
+.product-description{
+    width: 378px;
+    height: 37px;
+    color: $cart-description-link-price-old;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 9px;
+}
+
+.product__price{
+    color: $cart-product-price;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 12px;
+    padding-right: 32px;
+    display: inline-block;
+}
+
+.product__price-old{
+    color: $cart-description-link-price-old;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: inline;
+    text-decoration: line-through;
+}
+
+.product-name{
+    color: rgba(0, 0, 0, 1);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 378px;
+}
+
+.link-box__catalog{
+    width: 155px;
+    height: 24px;
+    color: rgba(0, 0, 0, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: block;
+}
+
+.link-box-catalog-padding{
+    padding-top: 39px;
+    padding-bottom: 64px;
+}
+
+@media (max-width: 1024px) {
+
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+
+    .header-line{
+        padding-top: 18.5px;
+        width: 786px;
+        height: 0;
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+    }
+
+    .product-content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 29px;
+    }
+
+    .footer__logo{
+        display: none;
+    }
+
+    .for__content-img{
+        height: 268px;
+    }
+
+    .for__content-item-big{
+        height: 268px;
+    }
+
+    .top__title{
+        width: 786px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .header-line{
+        display: none;
+    }
+
+    .top__title{
+        width: 343px;
+        height: 177px;
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-style: SemiBold;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 59px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .center {
+        padding-left: calc(50% - 187.5px);
+        padding-right: calc(50% - 187.5px);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__logo{
+        width: 99px;
+        height: 22px;
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-style: SemiBold;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .header-mini-img-1{
+        width: 14.97px;
+        height: 14.96px;
+    }
+
+    .header-mini-img-2{
+        width: 19.2px;
+        height: 19.2px;
+    }
+
+    .top-background{
+        align-items: center;
+    }
+
+    .header-mini-img-3{
+        width: 18.72px;
+        height: 16.67px;
+    }
+
+    .nav-link,
+    .header__search{
+        display: none;
+    }
+
+    .header-mini-img{
+        display: flex;
+        align-items: flex-end;
+        gap: 32px;
+    }
+    
+    .header{
+        display: flex;
+        gap: 116.8px;
+    }
+
+    .top__subtitle{
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-style: Regular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .top__link-catalog{
+        width: 343px;
+        height: 17px;
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-style: Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .for__title{
+        color: rgba(0, 0, 0, 1);
+        font-family: Montserrat;
+        font-style: SemiBold;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-left: 16px;
+        padding-top: 32px;
+    }
+
+    .for__content{
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        gap: 16px;
+    }
+
+    .for__content-img{
+        width: 342.7px;
+        height: 374.98px;
+    }
+
+    .for__content-item-big{
+        width: 343px;
+        height: 243.78px;
+    }
+
+    .product-box__name{
+        color: rgba(0, 0, 0, 1);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0%;
+        padding-left: 16px;
+        padding-top: 32px;
+        width: 342.91px;
+    }
+
+    .product-name{
+        padding-top: 9px;
+        color: rgba(0, 0, 0, 1);
+        font-family: Montserrat;
+        font-style: Medium;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 342.93px;
+        padding-left: 16px;
+    }
+
+    .product-description{
+        width: 342.93px;
+        padding-left: 16px;
+        color: rgba(136, 136, 136, 1);
+        font-family: Montserrat;
+        font-style: Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0%;
+        text-align: left;
+        display: block;
+        height: auto;
+    }
+
+    .product__price{
+        margin-top: 8px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        padding-left: 16px;
+        padding-top: 0px;
+    }
+
+    .product__price-old{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    .product__img{
+        width: 342.93px;
+        padding-left: 16px;
+        z-index: 1;
+    }
+
+    .product-content{
+        gap: 0;
+    }
+
+    .link-box__catalog{
+        padding-left: 16px;
+    }
+
+    .link-box-catalog-padding{
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+
+    .footer__info{
+        display: flex;
+        justify-content: none;
+        gap: 0px;
+    }
+
+    .footer__content{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 17px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footer__form{
+        padding-left: 41px;
+    }
+
+    .footer__item-nav{
+        padding-right: 100px;
+    }
+
+    .footer__form-button{
+        margin-bottom: 33px;
+    }
+}
